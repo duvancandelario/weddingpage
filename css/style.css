@@ -5,6 +5,10 @@
     list-style: none;
 }
 
+
+:root{
+    --margenes-izq-der: 20px 80px 0px 80px;
+}
 .fondo-container{
     width: 100%;
     height: 100%;
@@ -16,9 +20,13 @@
     width: 100%;
     height: 80px;
     background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    padding: var(--margenes-izq-der);
 }
 
-.fb-logo{
-    width: 50px;
-    height: 50px;
+.redes-sociales{
+    color: white;
+    font-size: 18px;
 }
