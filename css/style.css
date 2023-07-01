@@ -81,6 +81,10 @@
 }
 
 /*Finalizamos la seccion del header de abajo*/
+
+
+
+/*Iniciamos la seccion del contenido*/
 main{
     width: 100%;
     /*Alto de 100vh que es 1 pantalla*/
@@ -93,5 +97,19 @@ main{
     background-size: cover;
     background-attachment: fixed;
     margin-top: -80px;
+    color: white;
 
+}
+
+main .contenido-home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .contenido-home h1{
+    font-size: 60px;
 }
