@@ -47,6 +47,11 @@
     
 }
 
+.logo-personal .logo-wedding{
+    width: 200px;
+    margin-top: 8px;
+}
+
 .btn-contacto .btn-contactar{
     color: white;
     
@@ -75,6 +80,7 @@
     padding: 0px 20px 0px 20px;
 }
 
+/*Finalizamos la seccion del header de abajo*/
 main{
     width: 100%;
     /*Alto de 100vh que es 1 pantalla*/
