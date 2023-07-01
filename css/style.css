@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     list-style: none;
+    text-decoration: none;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 20px;
 }
 
 
 :root{
-    --margenes-izq-der: 20px 80px 0px 80px;
+    --margenes-izq-der: 0px 80px 0px 80px;
 }
 .fondo-container{
     width: 100%;
@@ -17,16 +22,70 @@
 }
 
 .header-wedding{
-    width: 100%;
+    display: flex;
+    flex-direction: column;
     height: 80px;
+    color: white;
+    z-index: 1;
+}
+/*Seccion arriba del header*/
+.header-wedding .toolbar-top{
+    width: 100%;
+    height: 70%;
     background-color: transparent;
     display: flex;
     justify-content: space-between;
-    background-color: red;
+    align-items: center;
+    background-color: transparent;
     padding: var(--margenes-izq-der);
 }
 
-.redes-sociales{
+.redes-sociales i{
     color: white;
     font-size: 18px;
+    padding: 0px 4px 0px 4px;
+    
+}
+
+.btn-contacto .btn-contactar{
+    color: white;
+    
+}
+
+
+/*Finalizamos seccion arriba del header*/
+
+
+/*Seccion abajo del header*/
+.header-wedding .toolbar-bottom{
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:transparent
+}
+
+.toolbar-bottom .servicios{
+    display: flex;
+}
+
+.toolbar-bottom .servicios .lista-servicios{
+    padding: 0px 20px 0px 20px;
+}
+
+main{
+    width: 100%;
+    /*Alto de 100vh que es 1 pantalla*/
+    height: 100vh;
+    background:linear-gradient(rgba(5,7,12,0.25), rgba(5,7,12,0.25)), url(/assets/hidalgo-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /*Cubreme el tamaño del hero*/
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -80px;
+
 }
