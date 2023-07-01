@@ -52,6 +52,16 @@
     margin-top: 8px;
 }
 
+
+.btn-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b68e67;
+    border-radius: 30px;
+    height: 30px;
+    width: 120px;
+}
 .btn-contacto .btn-contactar{
     color: white;
     
@@ -76,9 +86,19 @@
     display: flex;
 }
 
+
+
 .toolbar-bottom .servicios .lista-servicios{
     padding: 0px 20px 0px 20px;
+    transition: ease-out .5s;
 }
+
+.toolbar-bottom .servicios .lista-servicios:hover{
+    border-bottom: 5px solid white;
+  }
+
+
+
 
 /*Finalizamos la seccion del header de abajo*/
 
