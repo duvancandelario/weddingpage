@@ -70,6 +70,9 @@ box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.74);
     
 }
 
+.toolbar-top .menu-responsive{
+    display: none;
+}
 
 /*Finalizamos seccion arriba del header*/
 
@@ -135,4 +138,27 @@ main .contenido-home{
 
 main .contenido-home h1{
     font-size: 60px;
+}
+
+@media(max-width: 767px){
+
+    .header-wedding .toolbar-top{
+        padding: 0px 20px 0px 20px;
+    }
+
+    .toolbar-top .redes-sociales{
+        display: none;
+    }
+
+    .toolbar-top .btn-contacto{
+        display: none;
+    }
+
+    .toolbar-top .menu-responsive{
+        display: block;
+    }
+
+    .toolbar-bottom .servicios{
+        display: none;
+    }
 }
