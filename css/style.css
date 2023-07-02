@@ -70,10 +70,9 @@ box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.74);
     
 }
 
-.toolbar-top .menu-responsiva{
+.menu-responsive{
     display: none;
 }
-
 
 
 /*Finalizamos seccion arriba del header*/
@@ -156,21 +155,17 @@ main .contenido-home h1{
         display: none;
     }
 
-    .toolbar-top .menu-responsiva{
-        display: block;
-    }
-
-    .toolbar-top .menu-responsiva input{
-        display: none;
-    }
-
     .toolbar-bottom .servicios{
         display: none;
     }
 
-    
+    .menu-responsive{
+        display: block;
+        font-size: 30px;
+    }
 
-
-
+    .menu-responsive input{
+        display: none;
+    }
 
 }
