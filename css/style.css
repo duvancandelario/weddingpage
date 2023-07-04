@@ -70,7 +70,7 @@ box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.74);
     
 }
 
-.menu-responsive{
+.header-wedding label, .header-wedding input{
     display: none;
 }
 
@@ -155,17 +155,13 @@ main .contenido-home h1{
         display: none;
     }
 
-    .toolbar-bottom .servicios{
-        display: none;
-    }
 
-    .menu-responsive{
-        display: block;
-        font-size: 30px;
-    }
+   .header-wedding label{
+    display: block;
+   }
 
-    .menu-responsive input{
-        display: none;
-    }
+
+
+    /*Funcionalidad del boton responsive*/
 
 }
