@@ -68,11 +68,7 @@ box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.74);
 .btn-contacto .btn-contactar{
     color: white;
     
-}
-
-.header-wedding label, .header-wedding input{
-    display: none;
-}
+}   
 
 
 /*Finalizamos seccion arriba del header*/
@@ -104,7 +100,9 @@ box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.74);
     border-bottom: 5px solid white;
   }
 
-
+.toolbar-bottom label, i, input {
+    display: none;
+}  
 
 
 /*Finalizamos la seccion del header de abajo*/
@@ -116,7 +114,7 @@ main{
     width: 100%;
     /*Alto de 100vh que es 1 pantalla*/
     height: 100vh;
-    background:linear-gradient(rgba(5,7,12,0.25), rgba(5,7,12,0.25)), url(/assets/hidalgo-background.jpg);
+    background:linear-gradient(rgba(5,7,12,0.25), rgba(5,7,12,0.25)), url(https://traveler.marriott.com/es/wp-content/uploads/sites/2/2023/02/SJUPR_San_Juan_Marriott_Wedding_1920x1080.jpg);
     background-position: center;
     background-repeat: no-repeat;
 
@@ -141,6 +139,10 @@ main .contenido-home h1{
     font-size: 60px;
 }
 
+
+
+
+/*SECCION DEL DISEÑO RESPONSIVO*/
 @media(max-width: 767px){
 
     .header-wedding .toolbar-top{
@@ -161,7 +163,12 @@ main .contenido-home h1{
    }
 
 
-
     /*Funcionalidad del boton responsive*/
+   
+    
+    .header-wedding .toolbar-bottom input:checked + .servicios{
+display: block;
+
+}
 
 }
